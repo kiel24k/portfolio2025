@@ -9,7 +9,7 @@ const Header = () => {
       <div className="flex gap-4">
         <figure>
           <img
-            src="/public/images/mygradpic.jpg"
+            src="/images/mygradpic.jpg"
             alt=""
             className="w-45 h-40 rounded-2xl"
           />
