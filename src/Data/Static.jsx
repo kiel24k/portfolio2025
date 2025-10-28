@@ -12,9 +12,13 @@ import {
   FaDocker,
   FaLinux,
 } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa6";
+import { SiMui } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 import { SiAxios, SiPrimevue, SiMysql } from "react-icons/si";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { AiOutlineJavaScript } from "react-icons/ai";
+import { SiMongodb } from "react-icons/si";
 
 export const frontendStack = [
   "Html",
@@ -27,7 +31,7 @@ export const frontendStack = [
   "MUI",
   "Vite",
   "PrimeVue",
-  "Chart.js"
+  "Chart.js",
 ];
 
 export const backendStack = [
@@ -84,6 +88,7 @@ export const projects = [
     description: "Inventory management of FCIE",
     link: "https://github.com/kiel24k/FCIE-abmould-",
     linkName: "FCIE-abmould",
+    video: "/videos/fcievid.mp4",
     tools: [
       <FaHtml5 />,
       <FaCss3 />,
@@ -101,10 +106,12 @@ export const projects = [
     link: "https://github.com/kiel24k/13thvapourlounge2025",
     description: "Vapeshop at Trece Martires Cavite",
     linkName: "13thvapourlounge",
+    video: "/videos/vapevid.mp4",
     tools: [
       <FaHtml5 />,
       <FaCss3 />,
       <BiLogoTailwindCss />,
+      <SiMui/>,
       <FaReact />,
       <FaLaravel />,
       <SiAxios />,
@@ -149,5 +156,22 @@ export const projects = [
     link: "https://github.com/kiel24k/e-credits-Laravel10",
     linkName: "e-credits",
     tools: [<FaHtml5 />, <FaCss3 />, <FaLaravel />, <SiMysql />],
+  },
+  {
+    id: 7,
+    title: "GrandHaven",
+    description: "Helps Buyer and seller to find or list their own properties",
+    link: "https://github.com/kiel24k/GrandHaven",
+    linkName: "GrandHaven",
+    tools: [
+      <FaHtml5 />,
+      <FaCss3 />,
+      <BiLogoTailwindCss/>,
+      <SiMui/>,
+      <FaReact />,
+      <FaNodeJs />,
+      <SiExpress />,
+      <SiMongodb />,
+    ],
   },
 ];
