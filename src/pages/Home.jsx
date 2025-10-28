@@ -183,7 +183,7 @@ const Home = () => {
                       and Technology{" "}
                     </p>
                     <small className="border-1 rounded-lg border-gray-300 p-1 text-nowrap">
-                      2018-2020
+                      2019-2021
                     </small>
                   </div>
                 </li>
@@ -218,7 +218,7 @@ const Home = () => {
               <AiOutlineProject />
               <b className="text-lg">Recent Projects</b>
             </div>
-            <Link to={"all-projects"} className="text-gray-500 text-md">
+            <Link to={"all-projects"} className="text-black font-bold text-md">
               View all {">"}{" "}
             </Link>
           </div>

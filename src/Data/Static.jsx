@@ -26,15 +26,18 @@ export const frontendStack = [
   "React.js",
   "MUI",
   "Vite",
+  "PrimeVue",
+  "Chart.js"
 ];
 
 export const backendStack = [
   "PHP",
   "Laravel",
-  "SQL",
-  "MySQL",
+  "Node.js",
+  "Express.js",
+  "MySql",
+  "MongoDB",
   "REST Api",
-  "Api",
 ];
 
 export const devTools = [
